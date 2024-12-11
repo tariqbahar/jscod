@@ -3,8 +3,20 @@ console.log(fruits);
 
 // Use spread operator to create a new array
 
-const newFruits = [...fruits, 'orange', 'grape'];
-console.log(newFruits);
+// const newfruits=[...fruits,'orange','lemaons'];
+const newfruits=fruits.push('nice','looks')
+console.log(fruits);
+
+
+// Use the concat method to create a new array
+const books=['pashto','dare','English']
+const writes=['pancil','marker']
+const alls=books.concat(writes,'tairq')
+console.log(alls)
+// Use the slice method to create a new array with a portion of the original array
+
+const slicedFruits = fruits.slice(1, 3);
+console.log(slicedFruits);
 
 // Use the filter method to create a new array with only fruits that start with 'a'
 
