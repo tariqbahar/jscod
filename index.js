@@ -5,8 +5,7 @@ console.log(fruits);
 
 // const newfruits=[...fruits,'orange','lemaons'];
 const newfruits=fruits.push('nice','looks')
-console.log(fruits);
-
+console.log(newfruits);
 
 // Use the concat method to create a new array
 const books=['pashto','dare','English']
